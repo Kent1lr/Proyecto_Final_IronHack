@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Multiplication Game</h1>
+    </header>
+    <main>
+        <!-- Game page -->
+        <div id="game-page" class="page">
+          <h2>Test your multiplication skills!</h2>
+          <div id="question"></div>
+          <input type="text" id="answer" placeholder="Your answer">
+          <button id="submit-btn">Submit</button>
+          <!-- Feedback indicator -->
+          <div id="feedback"></div>
+          <!-- Score indicator -->
+          <div class="score">Right answers : <span id="rightAnswers"></span></div>
+          <div class="score">Wrong answers : <span id="wrongAnswers"></span></div>
+          <div id="timer">Time left : <span id="time-left"></span></div>
+        </div>
+        <!-- Home page -->
+        <div id="home-page" class="page">
+            <h2>Welcome to our website!</h2>
+            <p>Click on "Start" to play the multiplication game.</p>
+            <button id="start-btn">Start</button>
+        </div>
+        <!-- End of game page -->
+        <div id="end-page" class="page">
+            <h2>Congratulation !</h2>
+            <p>Your score : <span id="score-final"></span></p>
+            <p>Best score : <span id="best-score"></span></p>
+            <button id="restart-btn">Play again</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
